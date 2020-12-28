@@ -1,0 +1,22 @@
+html{
+    background-color:#000066;
+    color: #ccccff;
+    text-align: center;
+   
+}
+.container{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #ccccff;
+    padding: 10px;
+}
+.button{
+    background-color: aquamarine;
+    color: red;
+  padding: 10px 10px;
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+     
+}
