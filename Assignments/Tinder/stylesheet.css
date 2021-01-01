@@ -1,22 +1,45 @@
+body,html{
+    height: 100%;
+}
 html{
-    background-color:#000066;
+    
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(9,9,121,1) 94%);
+    
     color: #ccccff;
     text-align: center;
    
 }
+img{
+    border-radius: 20%;
+    padding: 20px;
+}
+
 .container{
+    background-color: rgb(14, 47, 107);
     margin: auto;
-    width: 60%;
+    width: 30%;
     border: 3px solid #ccccff;
+    border-radius: 20%;
     padding: 10px;
+    
 }
 .button{
-    background-color: aquamarine;
-    color: red;
+    background-color: lightblue;
+    color: darkblue;
   padding: 10px 10px;
   display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
      
+}
+#profilepicture{
+    width:150px;
+}
+.profile{
+    display: block;
+    margin:8px;
+    border-style: solid;
+    border-color: black;
 }

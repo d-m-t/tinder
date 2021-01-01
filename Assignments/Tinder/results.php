@@ -13,6 +13,9 @@
             include "./includes/db.php";
         ?>
         
-    </div>
+    </div><br>
+    <?php
+            include "./includes/footer.php";
+        ?>
 </body>
 </html>
